@@ -1,0 +1,124 @@
+body {
+  height: 100%;
+}
+
+.thumbsBox {
+  width: 50%;
+  height: 50%;
+}
+
+.pTop {
+  position: absolute;
+  top: 0px;
+}
+
+.pBot {
+  position: absolute;
+  bottom: 0px;
+}
+
+.pLeft {
+  position: absolute;
+  left: 0px;
+}
+
+.pRight {
+  position: absolute;
+  right: 0px;
+}
+
+#tUp {
+  background-color: #009900;
+  border: 5px solid #000000;
+  font-family: sans-serif;
+  font-style: bold;
+  font-size: 100px;
+  text-align: center;
+}
+
+#tUp:hover {
+  background-color: #99ff99;
+}
+
+#tWiggle {
+  background-color: #0099ff;
+  border: 5px solid #000000;
+  font-family: sans-serif;
+  font-style: bold;
+  font-size: 100px;
+  text-align: center;
+}
+
+#tWiggle:hover {
+  background-color: #99e6ff;
+}
+
+#tDown {
+  background-color: #ff1a1a;
+  border: 5px solid #000000;
+  font-family: sans-serif;
+  font-style: bold;
+  font-size: 100px;
+  text-align: center;
+}
+
+#tDown:hover {
+  background-color: #ff9999;
+}
+
+#tOops {
+  background-color: #ffff1a;
+  border: 5px solid #000000;
+  font-family: sans-serif;
+  font-style: bold;
+  font-size: 100px;
+  text-align: center;
+}
+
+#tOops:hover {
+  background-color: #ffff99;
+}
+
+div {
+  background-color: white;
+}
+
+#headerBox {
+  color: purple;
+  font-size: 30px;
+  background-color: green;
+  border-style: dotted;
+  border-color: black;
+  margin: 20px;
+}
+
+p {
+  color: black;
+}
+
+#content {
+  border: 3px solid black;
+  background-color: coral;
+}
+
+.paraBox {
+  border: 1px solid black;
+  margin: 20px;
+}
+
+#navBox {
+  border: 1px solid #000000;
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#about {
+  text-align: justify;
+}
+
+div {
+  border: 2px solid #000000;
+  padding: 20px;
+}
